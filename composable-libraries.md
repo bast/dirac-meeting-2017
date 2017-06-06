@@ -65,16 +65,24 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 - **Minimize the number of libraries affected by point group symmetry and Hamiltonian**
 - Better transferability across codes
 
+### [Separation is hard](https://twitter.com/jxxf/status/855486978837446656)
+
 ---
 
 ## Specs
 
 - Open source license
 - Configured with CMake
-- Well defined API (iterative process)
+- Well defined API (iterative process; still learning)
 - Semantic versioning
 - [Semantic branching model](https://dev-cafe.github.io/branching-model/)
 - Python interface
+
+---
+
+"Why don't you commute by airplane, it's so much faster?" - [@jakevdp](https://twitter.com/jakevdp) at #pycon2017
+
+<img src="img/plane.jpg" style="height: 550px;"/>
 
 ---
 
@@ -108,6 +116,8 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 ### Disadvantages
 
 ### Examples
+
+- https://github.com/dftlibs/numgrid#python-interface
 
 ---
 
@@ -171,3 +181,4 @@ Write me ...
 - Make it easier to cite
 - Publish the code (just putting it out on GitHub is not enough)
 - Make it easier to contribute
+- Build a inclusive community
