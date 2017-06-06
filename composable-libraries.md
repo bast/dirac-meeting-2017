@@ -59,6 +59,7 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 - Smaller units are easier to understand
 - They can be developed and tested independently
 - Composability
+- Libraries can be cherry-picked
 - Isolation
 - Do one thing, one thing only, and do it well (compare with Unix command line)
 - **Minimize the number of libraries affected by point group symmetry and Hamiltonian**
