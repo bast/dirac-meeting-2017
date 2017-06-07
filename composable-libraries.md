@@ -19,9 +19,7 @@ Credits: [Roberto Di Remigio](http://totaltrash.xyz),
 
 ---
 
-## Motivation: create tools, not toys
-
-But there is nothing wrong with toys or other motivations!
+## Motivation: create tools for the QC community
 
 Most of my action is now on [GitHub](https://github.com/bast).
 
@@ -76,6 +74,7 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 - Well defined API (iterative process; still learning)
 - Semantic versioning
 - [Semantic branching model](https://dev-cafe.github.io/branching-model/)
+- C interface
 - Python interface
 
 ---
@@ -98,12 +97,12 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 
 ## There are many ways to interface with Python
 
-- SWIG
-- F2PY
-- Boost
-- PyBind11
-- Cython
-- CFFI
+- [SWIG](http://www.swig.org)
+- [F2PY](https://docs.scipy.org/doc/numpy-dev/f2py/)
+- [Boost](http://www.boost.org/doc/libs/1_64_0/libs/python/doc/html/index.html)
+- [Cython](http://cython.readthedocs.io)
+- [pybind11](https://pybind11.readthedocs.io)
+- [CFFI](https://cffi.readthedocs.io)
 
 ---
 
