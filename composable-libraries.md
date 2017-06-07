@@ -191,6 +191,7 @@ template: inverse
 - Magnetically induced ring currents for large systems
 - General and simple Python library for visualization of densities/properties at post-processing step
 - Basis-set, Hamiltonian, and point-group symmetry-independent open-ended XC integrator
+- OpenRSP module (re-)available in DIRAC
 
 ---
 
