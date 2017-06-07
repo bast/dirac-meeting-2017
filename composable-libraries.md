@@ -196,6 +196,7 @@ template: inverse
 
 ## Things I need to improve
 
+- Simplify
 - Documentation
 - Make it easier to use
 - Make it easier to cite
