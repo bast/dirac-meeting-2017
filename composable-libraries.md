@@ -117,9 +117,17 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 
 ### Howto
 
+- Create a C interface (for Fortran use `iso_c_binding`)
+- Add a thin CFFI layer - all it needs to know about is the location of the header and the library
+
 ### Advantages
 
+- Not intrusive to the library (no need to even recompile)
+- Python interface layer is thin
+
 ### Disadvantages
+
+- Interface is limited to a C interface
 
 ### Examples
 
@@ -131,18 +139,18 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 
 ### Git submodules
 
-- Pros:
-- Cons:
+- Pros: flexibility, low risk of divergence
+- Cons: flexibility, confusion
 
 ### Subtrees
 
-- Pros:
-- Cons:
+- Pros: library source code is really there
+- Cons: risk of divergence, requires discipline
 
 ### Download/link at build time
 
-- Pros:
-- Cons:
+- Pros: low risk of divergence
+- Cons: needs network, prototyping library requires clever CMake code
 
 ---
 
@@ -176,7 +184,9 @@ template: inverse
 
 ## Outlook/vision
 
-Write me ...
+- Magnetically induced ring currents for large systems
+- General and simple Python library for visualization of densities/properties at post-processing step
+- Basis-set, Hamiltonian, and point-group symmetry-independent open-ended XC integrator
 
 ---
 
