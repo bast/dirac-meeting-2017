@@ -47,7 +47,7 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 - [GIMIC](https://github.com/qmcurrents/gimic): gauge-including magentically induced currents
 - https://github.com/dftlibs
 - http://dftlibs.org
-- http://openrsp.org
+- http://openrsp.org: open-ended calculation of response properties
 
 ---
 
@@ -86,6 +86,10 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 ---
 
 ## Which language to use?
+
+- C/C++ and Fortran 90+ are both perfectly fine
+
+### Practical considerations
 
 - Choose a language that your colleagues and coworkers understand (if you wish to have contributions)
 - C/C++ has better tooling than Fortran
