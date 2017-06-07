@@ -85,12 +85,19 @@ $$ n (\textbf{r}) = \sum\_{\kappa\lambda} D\_{\kappa\lambda} \chi\_\kappa (\text
 
 ---
 
+## Which language to use?
+
+- Choose a language that your colleagues and coworkers understand (if you wish to have contributions)
+- C/C++ has better tooling than Fortran
+
+---
+
 ## Motivations for interfacing with Python
 
 - Fast and easy prototyping
 - Leveraging Python packages
-- Distribute via PyPI
-- Test with pytest
+- Distribute via [PyPI](https://pypi.python.org/pypi)
+- Test with [pytest](https://docs.pytest.org)
 - Simple I/O (e.g. parse input with a one-liner)
 
 ---
