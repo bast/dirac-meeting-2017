@@ -87,9 +87,9 @@ class: split-50-50
 - Form pairs
 - Fork the DIRAC central repository
 - Clone the forked repository to your laptop
-- Create a branch
-- Commit a change to the documentation
 - Verify the remote with `git remote -v`
+- Create a branch
+- Commit a small change to the documentation/tutorials
 - Push the new branch to your fork
 - Submit a merge request towards `master` of the central repository;
   add a person from the group to your left as reviewer
