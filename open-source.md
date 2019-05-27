@@ -66,19 +66,6 @@ Is the freedom to ...
 
 ---
 
-## FAIR principles
-
-The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
-
-- To be .emph[**F**indable]
-- To be .emph[**A**ccessible]
-- To be .emph[**I**nteroperable]
-- To be .emph[**R**eusable]
-
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
-
----
-
 ## [Unpopular opinion:] Our license is incompatible with open science
 
 This licence for the Dirac program suite (home page http://diracprogram.org) is
@@ -111,6 +98,6 @@ conditions:
 
 ## What it would take to open master under LGPL
 
-- get agreement from all present and past contributors
-- move `MOD_UNRELEASED` code out of master
-- possibly rewrite Git history to get rid of these changes in the past
+- Get agreement from all present and past contributors
+- Move `MOD_UNRELEASED` code out of master
+- Possibly rewrite Git history to get rid of these changes in the past
