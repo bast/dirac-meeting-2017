@@ -1,3 +1,4 @@
+Text: free to share and remix under [CC-BY-SA-4.0](LICENSE).
 
 
 # 2017
