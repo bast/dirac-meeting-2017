@@ -62,7 +62,7 @@ Is the freedom to ...
 .quote["But we already share the sources - what else do you want?"]
 
 - Making sources readable does not mean it's open source. Our license discourages derivative work
-  and limits our impact and funding opportunities.
+  and probably limits our impact and funding opportunities.
 
 ---
 
@@ -96,8 +96,14 @@ conditions:
 
 ---
 
-## What it would take to open master under LGPL
+## Concrete steps towards public master under LGPL
 
 - Get agreement from all present and past contributors
 - Move `MOD_UNRELEASED` code out of master
 - Possibly rewrite Git history to get rid of these changes in the past
+
+### Two (or more) repositories (like Dalton)
+
+- https://gitlab.com/dirac/dirac/ (only master and release branches)
+- https://gitlab.com/dirac/dirac-private/ (all other branches, no master branch)
+- https://gitlab.com/john-doe/dirac/ (no problem to fork and work wherever)
