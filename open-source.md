@@ -66,6 +66,12 @@ Is the freedom to ...
 
 ---
 
+class: center, middle, inverse
+
+## **If** you distribute sources, **never** design your own license, **unless** you have expertise in copyright law.
+
+---
+
 ## [Unpopular opinion:] Our license is incompatible with open science
 
 This licence for the Dirac program suite (home page http://diracprogram.org) is
