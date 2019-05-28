@@ -9,15 +9,6 @@ UiT The Arctic University of Norway
 
 ---
 
-## What I want to achieve
-
-<img src="img/forking-workflow.jpg" style="width: 100%;"/>
-
-- I would like the central master is public and licensed under LGPL
-- No restrictions for your developments, you can have private feature branches
-
----
-
 class: center, middle, inverse
 
 ## Disclaimer
@@ -25,6 +16,15 @@ class: center, middle, inverse
 ## - Current state has a history: I am not criticizing past, I want to influence present/future
 
 ## - My career will not depend on this discussion and our decisions today
+
+---
+
+## What I want to achieve
+
+<img src="img/forking-workflow.jpg" style="width: 100%;"/>
+
+- I would like the central master is public and licensed under LGPL
+- No restrictions for your developments, you can have private feature branches
 
 ---
 
